@@ -1,4 +1,6 @@
 import os
+os.environ["TRANSFORMERS_VERBOSITY"] = "error"
+
 import json
 import ssl
 import time
