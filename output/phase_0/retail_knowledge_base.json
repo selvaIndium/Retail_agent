@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-27", 
+  "generated_at": "2026-05-27",
   "total_elements": 1113,
   "elements": [
     {
@@ -9170,6 +9170,7 @@
       "who_was_involved": "Customer, Store Associate, POS, Promo Engine, BA, QA, Developer",
       "expected_vs_actual": "Expected: System should apply the offer automatically\n Actual: POS billed full amount",
       "impact": "Customer dissatisfaction, refund needed, negative store experience",
+      "comment_box": "................................................................................................................................"
     },
     {
       "source_doc": "Retail Domain Scenarios.docx",
@@ -9183,6 +9184,7 @@
       "who_was_involved": "Customer, Store Associate, POS, IT Support, BA, QA, Developer",
       "expected_vs_actual": "Expected: POS should work smoothly even during peak time\nActual: POS crashed, delaying transactions",
       "impact": "Lost sales, long queues, frustrated customers and staff",
+      "comment_box": "................................................................................................................................"
     },
     {
       "source_doc": "Retail Domain Scenarios.docx",
@@ -9196,6 +9198,7 @@
       "who_was_involved": "Customer, Store Associate, POS, Product Master, BA, QA",
       "expected_vs_actual": "Expected: Product details should appear with scan\nActual: System didn't recognize the barcode",
       "impact": "Billing delay, pricing error risk, customer frustration",
+      "comment_box": "................................................................................................................................"
     },
     {
       "source_doc": "Retail Domain Scenarios.docx",
@@ -9209,6 +9212,7 @@
       "who_was_involved": "Store Associate, POS, Store Manager, BA, Developer",
       "expected_vs_actual": "Expected: System should validate high discount entries\nActual: Wrong discount applied, item given for free",
       "impact": "Revenue loss, audit issue, manual override needed",
+      "comment_box": "................................................................................................................................"
     },
     {
       "source_doc": "Retail Domain Scenarios.docx",
@@ -9222,6 +9226,7 @@
       "who_was_involved": "Customer, Store Associate, POS, Payment Gateway, BA, Developer",
       "expected_vs_actual": "Expected: POS should show \"Payment Successful\" after confirmation\nActual: Payment status stuck in \"Pending\"",
       "impact": "Customer confusion, risk of duplicate payment, queue delay",
+      "comment_box": "................................................................................................................................"
     },
     {
       "source_doc": "Retail Domain Scenarios.docx",
@@ -9235,6 +9240,7 @@
       "who_was_involved": "Customer, Store Associate, OMS, POS, Inventory System, BA, QA",
       "expected_vs_actual": "Expected: Item should be reserved immediately upon online order\nActual: Item was sold in-store before reservation",
       "impact": "Lost sale, frustrated customer, negative trust in omnichannel services",
+      "comment_box": "................................................................................................................................"
     },
     {
       "source_doc": "Retail Domain Scenarios.docx",
@@ -9248,6 +9254,7 @@
       "who_was_involved": "Customer, eCom Platform, Payment Gateway, BA, QA, Developer",
       "expected_vs_actual": "Expected: Option to retry payment or select another method\nActual: Checkout failed and cart was emptied",
       "impact": "Cart abandonment, lost revenue, negative experience",
+      "comment_box": "................................................................................................................................"
     },
     {
       "source_doc": "Retail Domain Scenarios.docx",
@@ -9261,6 +9268,7 @@
       "who_was_involved": "Customer, OMS, Website, Inventory System, BA, QA",
       "expected_vs_actual": "Expected: Website should show accurate stock status\nActual: Product was sold out, but site showed availability",
       "impact": "Customer disappointment, reputation damage, support overhead",
+      "comment_box": "................................................................................................................................"
     },
     {
       "source_doc": "Retail Domain Scenarios.docx",
@@ -9274,6 +9282,7 @@
       "who_was_involved": "Customer, Picker/Packer, WMS, Courier, BA, QA",
       "expected_vs_actual": "Expected: Item packed should match online order\nActual: Incorrect item delivered",
       "impact": "Return request raised, delivery cost doubled, customer inconvenience",
+      "comment_box": "................................................................................................................................"
     },
     {
       "source_doc": "Retail Domain Scenarios.docx",
@@ -9287,6 +9296,7 @@
       "who_was_involved": "Customer, OMS, Courier Partner, Notification Engine, BA, Dev",
       "expected_vs_actual": "Expected: Order tracking should update in real-time\nActual: No visibility on order status",
       "impact": "High support calls, negative feedback, anxious customer",
+      "comment_box": "................................................................................................................................\n\nOrder Management System (OMS) - Case-Based Scenarios"
     },
     {
       "source_doc": "Retail Domain Scenarios.docx",
@@ -9300,6 +9310,7 @@
       "who_was_involved": "Customer, OMS, Inventory System, Fulfillment Partner, BA, Dev",
       "expected_vs_actual": "Expected: Order should be routed to closest fulfillment location\nActual: Order sent from a faraway warehouse, increasing delivery time",
       "impact": "Delayed delivery, higher logistics cost, poor customer experience",
+      "comment_box": "................................................................................................................................"
     },
     {
       "source_doc": "Retail Domain Scenarios.docx",
@@ -9313,6 +9324,7 @@
       "who_was_involved": "Customer, OMS, Website, Warehouse, BA, QA",
       "expected_vs_actual": "Expected: Cancellation should be allowed within window\nActual: Order shipped instantly, making cancellation impossible",
       "impact": "Customer dissatisfaction, forced returns, waste of shipping cost",
+      "comment_box": "................................................................................................................................"
     },
     {
       "source_doc": "Retail Domain Scenarios.docx",
@@ -9325,7 +9337,8 @@
       "what_went_wrong": "OMS didn't block duplicate order creation caused by repeated clicks.",
       "who_was_involved": "Customer, OMS, Website, Payment Gateway, BA, QA",
       "expected_vs_actual": "Expected: One order and one payment should be created\nActual: Two orders placed, two payments deducted",
-      "impact": "Refund required, customer panic, support call generated
+      "impact": "Refund required, customer panic, support call generated\nComment Box (Your Thoughts):\n................................................................................................................................",
+      "comment_box": ""
     },
     {
       "source_doc": "Retail Domain Scenarios.docx",
@@ -9339,6 +9352,7 @@
       "who_was_involved": "Customer, OMS, Frontend, Warehouse, Notification Engine",
       "expected_vs_actual": "Expected: System should show partial delivery and pending item(s)\nActual: Customer sees full order marked as shipped",
       "impact": "Customer confusion, support queries, poor transparency",
+      "comment_box": "................................................................................................................................"
     },
     {
       "source_doc": "Retail Domain Scenarios.docx",
@@ -9352,6 +9366,7 @@
       "who_was_involved": "Customer, Store Associate, POS, OMS, Finance System, BA, QA",
       "expected_vs_actual": "Expected: Refund process should start automatically after return\nActual: Refund stuck due to missing event trigger in OMS",
       "impact": "Customer frustration, support escalation, risk of brand damage",
+      "comment_box": "................................................................................................................................\n\nInventory & Supply Chain - Case-Based Scenarios"
     },
     {
       "source_doc": "Retail Domain Scenarios.docx",
@@ -9365,6 +9380,7 @@
       "who_was_involved": "Customer, Store Associate, Inventory System, OMS, BA, QA",
       "expected_vs_actual": "Expected: System should show actual available stock\nActual: Item was marked available but wasn't physically present",
       "impact": "Order cancelled, poor customer experience, lost sale",
+      "comment_box": "................................................................................................................................"
     },
     {
       "source_doc": "Retail Domain Scenarios.docx",
@@ -9378,6 +9394,7 @@
       "who_was_involved": "Inventory Planning Team, Warehouse, Stores, BA, Dev",
       "expected_vs_actual": "Expected: Inventory distributed based on demand per location\nActual: Mismatch in supply and demand",
       "impact": "Loss of sales, high holding cost, inter-store transfer overhead",
+      "comment_box": "................................................................................................................................"
     },
     {
       "source_doc": "Retail Domain Scenarios.docx",
@@ -9391,6 +9408,7 @@
       "who_was_involved": "Inventory System, Store, Supply Chain Team, BA, QA",
       "expected_vs_actual": "Expected: Auto-replenishment should trigger once threshold is hit\nActual: No replenishment; stockout occurred",
       "impact": "Loss of revenue, customer dissatisfaction, manual intervention required",
+      "comment_box": "................................................................................................................................"
     },
     {
       "source_doc": "Retail Domain Scenarios.docx",
@@ -9404,6 +9422,7 @@
       "who_was_involved": "Vendor, Warehouse Team, Inventory System, Vendor Management Team",
       "expected_vs_actual": "Expected: Items delivered with proper SKU labeling\nActual: Manual work needed to tag and upload SKU data",
       "impact": "Delay in stocking, chances of SKU mismatch, inventory errors",
+      "comment_box": "................................................................................................................................"
     },
     {
       "source_doc": "Retail Domain Scenarios.docx",
@@ -9417,6 +9436,7 @@
       "who_was_involved": "Inventory System, OMS, POS, Return Module, BA, QA, Developer",
       "expected_vs_actual": "Expected: Inventory count should never go below 0\nActual: System allowed negative stock due to delayed updates",
       "impact": "Incorrect availability on frontend, false commitments, system confusion",
+      "comment_box": "................................................................................................................................\n\nWarehouse & Fulfillment - Case-Based Scenarios"
     },
     {
       "source_doc": "Retail Domain Scenarios.docx",
@@ -9430,6 +9450,7 @@
       "who_was_involved": "Customer, Warehouse Picker, WMS, Courier Partner",
       "expected_vs_actual": "Expected: Correct item picked, verified, and shipped\nActual: Incorrect item sent, leading to customer return",
       "impact": "Extra return cost, delayed replacement, customer frustration",
+      "comment_box": "................................................................................................................................"
     },
     {
       "source_doc": "Retail Domain Scenarios.docx",
@@ -9443,6 +9464,7 @@
       "who_was_involved": "Warehouse Packer, WMS, Courier API, BA, QA",
       "expected_vs_actual": "Expected: Label auto-generated at packing stage\nActual: Manual intervention required to print label",
       "impact": "Shipping delay, missed SLA, increase in customer support tickets",
+      "comment_box": "................................................................................................................................"
     },
     {
       "source_doc": "Retail Domain Scenarios.docx",
@@ -9456,6 +9478,7 @@
       "who_was_involved": "Warehouse, Courier Partner, OMS, BA, Dev",
       "expected_vs_actual": "Expected: Status to update only after package handover\nActual: Shipment status pushed too early",
       "impact": "False tracking info, customer confusion, escalations",
+      "comment_box": "................................................................................................................................"
     },
     {
       "source_doc": "Retail Domain Scenarios.docx",
@@ -9469,6 +9492,7 @@
       "who_was_involved": "Warehouse Staff, Inventory Team, WMS, Audit Team",
       "expected_vs_actual": "Expected: Digital stock count matches physical stock\nActual: Mismatch caused by system gaps",
       "impact": "Reconciliation needed, stock adjustments, order routing errors",
+      "comment_box": "................................................................................................................................"
     },
     {
       "source_doc": "Retail Domain Scenarios.docx",
@@ -9482,6 +9506,7 @@
       "who_was_involved": "Courier Partner, Warehouse, OMS, Customer Support",
       "expected_vs_actual": "🔹 Expected: Tracking to begin immediately after pickup\n🔹 Actual: Order marked as picked but vanished in transit",
       "impact": "Reshipment needed, refund processing, customer dissatisfaction",
+      "comment_box": "................................................................................................................................\n\nLoyalty & Promotions - Case-Based Scenarios"
     },
     {
       "source_doc": "Retail Domain Scenarios.docx",
@@ -9495,6 +9520,7 @@
       "who_was_involved": "Customer, POS, Loyalty Engine, CRM, BA, QA",
       "expected_vs_actual": "Expected: Points credited automatically after eligible purchase\nActual: No points credited even after 24 hours",
       "impact": "Customer complaint, trust issues with loyalty program",
+      "comment_box": "................................................................................................................................"
     },
     {
       "source_doc": "Retail Domain Scenarios.docx",
@@ -9508,6 +9534,7 @@
       "who_was_involved": "Customer, POS/eCom, Promo Engine, BA, Dev",
       "expected_vs_actual": "Expected: Expired coupons should be rejected\nActual: System incorrectly honored an expired coupon",
       "impact": "Revenue loss, audit exceptions, promo abuse risk",
+      "comment_box": "................................................................................................................................"
     },
     {
       "source_doc": "Retail Domain Scenarios.docx",
@@ -9521,6 +9548,7 @@
       "who_was_involved": "Customer, Loyalty Engine, CRM, BA, QA",
       "expected_vs_actual": "Expected: Tier should auto-upgrade once threshold is crossed\nActual: Customer's tier status didn't change",
       "impact": "Customer dissatisfaction, perceived unfairness",
+      "comment_box": "................................................................................................................................"
     },
     {
       "source_doc": "Retail Domain Scenarios.docx",
@@ -9534,6 +9562,7 @@
       "who_was_involved": "Customer, eCom/Checkout Engine, Promo Engine, BA, Dev",
       "expected_vs_actual": "Expected: Only one code should be accepted\nActual: Both applied, double discount given",
       "impact": "Revenue impact, policy violation",
+      "comment_box": "................................................................................................................................"
     },
     {
       "source_doc": "Retail Domain Scenarios.docx",
@@ -9547,6 +9576,7 @@
       "who_was_involved": "Customer, Loyalty Engine, CRM, BA, QA",
       "expected_vs_actual": "Expected: Points calculated as per active rate\nActual: Points credited were less than expected",
       "impact": "Customer raises complaint, manual correction required",
+      "comment_box": "................................................................................................................................"
     },
     {
       "source_doc": "Retail Domain Scenarios.docx",
@@ -9559,7 +9589,8 @@
       "what_went_wrong": "Agent didn't log the ticket in CRM after the call ended.",
       "who_was_involved": "Customer, Support Agent, CRM, QA Team",
       "expected_vs_actual": "Expected: Every issue logged for tracking and analytics\nActual: No audit trail or case created",
-      "impact": "No follow-up possible, poor analytics, missed SLA
+      "impact": "No follow-up possible, poor analytics, missed SLA\n Comment Box (Your Thoughts):\n................................................................................................................................",
+      "comment_box": ""
     },
     {
       "source_doc": "Retail Domain Scenarios.docx",
@@ -9573,6 +9604,7 @@
       "who_was_involved": "Customer, Support Agent, CRM, Knowledge Team",
       "expected_vs_actual": "Expected: Agent should refer to the updated policy\nActual: Incorrect information shared",
       "impact": "Escalation, poor CSAT, social media complaint",
+      "comment_box": "................................................................................................................................"
     },
     {
       "source_doc": "Retail Domain Scenarios.docx",
@@ -9586,6 +9618,7 @@
       "who_was_involved": "Customer, Support Agent, CRM, Finance System, BA",
       "expected_vs_actual": "Expected: Refund status should be viewable by support\nActual: Agent had to raise a backend request",
       "impact": "Customer inconvenience, delayed response, ticket escalation",
+      "comment_box": "................................................................................................................................"
     },
     {
       "source_doc": "Retail Domain Scenarios.docx",
@@ -9599,6 +9632,7 @@
       "who_was_involved": "Customer, CRM, Support Agent, Tech Team",
       "expected_vs_actual": "Expected: System should merge follow-ups under one ticket\nActual: Multiple tickets created",
       "impact": "Redundant work, slow resolution, poor customer perception",
+      "comment_box": "................................................................................................................................"
     },
     {
       "source_doc": "Retail Domain Scenarios.docx",
@@ -9612,6 +9646,7 @@
       "who_was_involved": "Customer, Support Agent, CRM, OMS, BA",
       "expected_vs_actual": "Expected: Full profile including purchase history visible to agent\nActual: CRM showed blank transaction list",
       "impact": "Limited support capability, low first-call resolution rate",
+      "comment_box": ""
     }
   ]
 }
